@@ -22,7 +22,6 @@ void countingSort( vector<int>& arr)
     }
     cout << "After sorting:\n";
     for (int i = 0; i < arr.size(); ++i)
-//        arr[i] = arr_output[i];
         cout<<arr_output[i]<<" ";
 }
 
@@ -34,11 +33,5 @@ int main() {
      cout <<  endl;
 
     countingSort(arr);
-
-//     cout << "After sorting:\n";
-//    for (int x : arr)
-//         cout << x << " ";
-//     cout <<  endl;
-
     return 0;
 }
