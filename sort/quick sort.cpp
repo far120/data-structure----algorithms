@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// this code is written by the author of the project Mostafa ElFar 29/9/2024
 int partition(int arr[],int l,int h)
 {
     int pivot=arr[h];

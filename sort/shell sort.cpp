@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// this code is written by the author of the project Mostafa ElFar 29/9/2024
 void shellSort(vector<int>& arr) {
     int s = arr.size();
     for (int g = s / 2; g > 0; g /= 2) {

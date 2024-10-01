@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cassert>
-
 using namespace std;
 
 struct nodeType
@@ -376,7 +375,7 @@ int main()
 	b.remove(5);
     b.order();
     cout<<endl;
-//    b.preorderTraversal();
+   b.preorderTraversal();
 //    cout<<endl;
 //    b.inorderTraversal();
 //    cout<<endl;
