@@ -6,12 +6,15 @@ void merge(int arr[], int l, int m, int r)//m = l + (r - l) / 2;
     int n1 = m - l + 1;// First subarray is arr[l..m]
     int n2 = r - m;// Second subarray is arr[m+1..r]
     int *L=new int[n1], *R=new int[n2];
+    cout<<n1<<" "<<n2<<endl;
 
     for (i = 0; i < n1; i++)
         L[i] = arr[l + i];
     for (j = 0; j < n2; j++)
         R[j] = arr[m + 1 + j];
 
+
+   
     i = j = 0;
     k = l;
 
@@ -51,7 +54,6 @@ void mergeSort(int arr[], int l, int r)
     if (l < r)
     {
         int m = l + (r - l) / 2;
-
         mergeSort(arr, l, m);
         mergeSort(arr, m + 1, r);
 
